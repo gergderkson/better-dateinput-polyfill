@@ -1,7 +1,7 @@
 /**
  * better-dateinput-polyfill: input[type=date] polyfill for better-dom
  * @version 1.5.2 Thu, 26 Feb 2015 14:03:58 GMT
- * @link https://github.com/chemerisuk/better-dateinput-polyfill
+ * @link https://github.com/chemerisuk/better-dateinput-polyfill forked at https://github.com/gergderkson/better-dateinput-polyfill
  * @copyright 2014 Maksim Chemerisuk
  * @license MIT
  */
