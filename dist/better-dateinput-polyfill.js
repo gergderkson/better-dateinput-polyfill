@@ -33,6 +33,7 @@
                 .on(["focus", "click"], this._focusCalendar.bind(this, calendar))
                 .on("blur", this._blurCalendar.bind(this, calendar))
                 .on("change", this._formatValue.bind(this, label))
+                .on('refresh', function() { changeValue(this.value()) })
                 .before(calendar.hide(), label);
 
             label
